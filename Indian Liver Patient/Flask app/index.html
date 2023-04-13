@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Liver Patient Analysis</title>
+ <!-- Latest compiled and minified CSS-->
+ <link rel="stylesheet" href="https.//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+
+<style type="text/css">
+   body{
+        background-color: #ffcf0059;
+}
+.page-header{
+      background-color: blue;
+      width: 100%
+      height: auto;
+      text-allign: center;
+      padding-top: 5px;
+      color: #fff;
+}
+h1{
+   font-size: 40px;
+   font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+   
+      <div class="container">
+         <div class="row">
+         <div class="col-md-3"></div>
+         <div class="col-md-6>
+         <div class="page-header>
+            <h1>liver patient prediction</h1>
+         </div>
+         </div>
+        </div>
+      </div>
+<div class="container">
+   <div class="row">
+       <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <from action="/data_predict" method="post"> 
+             <div class="row">
+                <div class="col-md-6">
+                   <div class="form-group">
+                      <label for="age">Age:</label>
+                      <input type="type" class="form-control" id="age" name="age>"
+                   </div>
+             </div>
+          
+          <div class="col-md-6">
+              <div class="form-group">
+                <label for="gender">Gender:</label>  
+                <input type="text" class="form-control" id="gender" name="gender"
+              </div>
+             <div class="col-md-6">
+               <div class="form-group">
+                     <lable for="aa1">Alamine_Aaminotransferase: </lable>
+                     <input type="text" class"form-control id="aa1" name="aa1"
+               </div>
+               </div>
+             </div>     
+             <div class="col-md-6">
+               <div class="form-group">
+                     <lable for="aa2">Alamine_Aaminotransferase: </lable>
+                     <input type="text" class"form-control id="aa2" name="aa2"
+               </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                        <lable for="tp">Total_protiens: </lable>
+                        <input type="text" class"form-control id="tp" name="tp"  
+                  </div>
+               </div>
+               <div class="row"
+               <div class="col-md-6">
+                  <div class="form-group">
+                        <lable for="a">Albumin: </lable>
+                        <input type="text" class"form-control id="a" name="a"
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                        <lable for="arg">Albumin_and_Globulin_Ratio: </lable>
+                        <input type="text" class"form-control id="arg" name="arg"
+                  </div>
+               </div>
+             </div>
+
+
+             <button type="submit" class="btn btn-default">predict</button>
+            </form>
+           </from>
+           </div>
+   </div>
+</div>   
+
+
+<!-- Latest compiled and minified javascript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min,js"></script>
+</body>
+</html>
