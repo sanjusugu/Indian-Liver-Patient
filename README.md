@@ -1,3 +1,3 @@
 # Indian-Liver-Patient
 
-video demonstration - https://github.com/sanjusugu/Indian-Liver-Patient/edit/main/README.md
+video demonstration - https://youtu.be/ZFT3-z4gne0
